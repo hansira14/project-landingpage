@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+#header, #footer, #intro, #random {
+    padding: 20px 15vw;
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+}
+
+h1{
+    margin: 0px;
+}
+
+#intro {
+    padding: 30px 15vw 100px 15vw;
+    align-items: stretch;
+}
+
+
+#random {
+    background-color: rgb(253	253	253	);
+    flex-direction: column;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    text-align: center;
+}
+
+h3 {
+    margin-right: auto;
+}
+
+#footer{
+    justify-content: center;
+}
+
+img {
+    max-width: 40vw;
+}
+
+li img {
+    border: solid;
+}
+
+#quote {
+    padding: 0 15vw;
+}
+
+h4{
+    text-align: right;
+}
+
+#contact{
+    margin:50px 15vw;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+}
